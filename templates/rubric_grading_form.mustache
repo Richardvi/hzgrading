@@ -1,0 +1,20 @@
+<div class="clearfix override-grade mt-4">
+    <div class="d-flex">
+        <label for="hz_override_grade" style="margin: 0 0 0 5px;line-height: 2.3;">{{#str}}override_grade, local_hzgrading{{/str}}</label>
+        <input class="form-control" type="number" name="advancedgrading[final_grade]" id="hz_override_grade" disabled="disabled" style="margin: 0 10px;"> <input type="checkbox" id="activate_override_grade"> <label for="activate_override_grade" style="margin: 0 0 0 5px;line-height: 2.3;">{{#str}}activate_override_grade, local_hzgrading{{/str}}</label>
+    </div>
+
+    <p>{{#str}}override_grade_desc, local_hzgrading{{/str}}</p>
+
+    <div style="display: flex; align-items: center;">
+        <div>
+            <input type="checkbox" id="nietdeelgenomen">
+            <label id="lblNotParticipated" for="nietdeelgenomen" style="margin-left: 4px;">{{#str}}notparticipated, local_hzgrading{{/str}}</label>
+        </div>
+        <div style="margin-left: 8px;">
+            <input type="checkbox" id="nietontvankelijk">
+            <label id="lblNotAdmissible" for="nietontvankelijk" style="margin-left: 4px;">{{#str}}notadmissible, local_hzgrading{{/str}}</label>
+        </div>
+    </div>
+
+</div>
